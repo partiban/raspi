@@ -11,8 +11,8 @@ import datetime
 import gspread
 from oauth2client.client import SignedJwtAssertionCredentials
 
-GDOCS_OAUTH_JSON       = 'API Project-ab73af72cefe.json'
-GDOCS_SPREADSHEET_NAME = 'Temp_Logger'
+GDOCS_OAUTH_JSON       = 'file.json'
+GDOCS_SPREADSHEET_NAME = 'name'
 FREQUENCY_SECONDS      = 30
 
 #initiate the temperature sensor
